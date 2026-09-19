@@ -33,16 +33,20 @@ J:\DialogueInspect\DialogueInspect\bin\x64\Release\DialogueInspect.dll
 
 ## ゲームへの入れ方（最初の1回）
 
+Dev Plugin は使いません。[Qmeko/DalamudPlugins](https://github.com/Qmeko/DalamudPlugins) から入れます。
+
 1. ゲームを XIVLauncher で起動する
 2. チャットに `/xlsettings` と打つ
 3. **Experimental**（試験的機能）タブを開く
-4. **Dev Plugin Locations** に、次のフォルダを追加する
+4. **Custom Plugin Repositories** に、次の URL を追加して有効にする
 
 ```
-J:\DialogueInspect\DialogueInspect\bin\x64\Release
+https://raw.githubusercontent.com/Qmeko/DalamudPlugins/refs/heads/main/pluginmaster.json
 ```
 
-5. `/xlplugins` を開き、Dev Tools から DialogueInspect を有効にする
+5. 保存したあと `/xlplugins` を開き、DialogueInspect をインストールする
+
+以前 Dev Plugin Locations に `J:\DialogueInspect\...` を入れている場合は、その行を消してください。同じプラグインが二重に出ます。
 
 ## 使い方
 
