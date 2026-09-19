@@ -1,0 +1,16 @@
+{
+  "Author": "Qmeko",
+  "Name": "DialogueInspect",
+  "InternalName": "DialogueInspect",
+  "AssemblyVersion": "0.2.13.0",
+  "Description": "ターゲットしたNPCの会話リストをタブ化し、項目をマークしてプリセット保存します。/di start で近くのNPCに話しかけ、マークした項目を選びます。",
+  "Punchline": "NPC会話の選択肢を調べて、プリセットで自動選択する",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "npc",
+    "dialogue",
+    "inspect",
+    "preset"
+  ],
+  "DalamudApiLevel": 15
+}

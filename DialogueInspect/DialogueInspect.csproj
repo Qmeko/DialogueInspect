@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>0.2.13.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Author>Qmeko</Author>
+    <Name>DialogueInspect</Name>
+    <Punchline>NPC会話の選択肢を調べて、プリセットで自動選択する</Punchline>
+    <Description>ターゲットしたNPCの会話リストをタブ化し、項目をマークしてプリセット保存します。/di start で近くのNPCに話しかけ、マークした項目を選びます。</Description>
+    <Tags>npc;dialogue;inspect;preset</Tags>
+  </PropertyGroup>
+</Project>
